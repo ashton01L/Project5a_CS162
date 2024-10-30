@@ -1,4 +1,16 @@
+# Author: Ashton Lee
+# Github User: ashton01L
+# Date: 10/29/2024
+# Description: Write a function named file_sum that takes as a parameter the name of a text file that contains a list
+# of numbers, one to a line.
 def file_sum(filename):
+    """
+    Opens and reads file, checks to ensure data is numeric and sums numeric data. Raises error if non-numeric.
+    Writes sum of numeric data to file named sum.txt
+
+    :param: filename
+    :return: Writes to file
+    """
     try:
         total = 0.0
         with open(filename, 'r') as f:
