@@ -29,4 +29,4 @@ def file_sum(filename):
         raise FileNotFoundError(f"The file '{filename}' was not found.")
 
 
-file_sum('numbers.txt')
+# file_sum('numbers.txt')
